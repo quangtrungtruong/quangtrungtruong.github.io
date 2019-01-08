@@ -48,7 +48,7 @@ ul{list-style-type:none;}
 /*----Body Panel----*/
 #bodyPan{width:749px; position:relative; margin:0 auto;}
 /*--------Body Left Panel----------*/
-#bodyleftPan{width:749px; float:left;}
+#bodyleftPan{float:left; padding:23px 4px 20px 3px;}
 
 #bodyleftPan p.more{font-weight:bold; font-size:11px; margin:12px 0 0;}
 #bodyleftPan p.more a{width:40px; height:13px; display:block; background:#BE8A0A; color:#fff; text-decoration:none; text-align:center; line-height:12px; margin:0 0 0 393px;}
