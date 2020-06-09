@@ -9,9 +9,7 @@ ul{list-style-type:none;}
 /*----Top Header Panel----*/
 #topPan p.captiontext{width:122px; background:#FCE5AF; color:#8D6C1B; font-size:12px; font-weight:bold; position:absolute; top:13px; left:238px;}
 #topPan p.contact{width:60px; background:#FCE5AF; color:#5D460C; font-size:14px; font-weight:bold; position:absolute; top:13px; left:441px; text-transform:uppercase;}
-
 #topPan p.tollfree{width:60px; height:15px; background:#9C0174; color:#fff; font:10px/15px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; position:absolute; top:26px; left:441px; text-transform:uppercase;}
-
 #topPan p.phoneno{width:178px; height:28px; background:#fff; color:#8D6C1B; font:18px/28px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; position:absolute; top:13px; right:62px; text-transform:uppercase;}
 
 /*----/Top Header Panel----*/
@@ -74,4 +72,3 @@ form input{width:55px; height:15px; background:#8D6C1B; color:#fff; font-weight:
 #bodyrightPan ul li{width:240px; height:20px;}
 #bodyrightPan ul li a{width:224px; height:20px; background:url(images/bullet-normal.gif) 0 6px no-repeat #fff; color:#4D4D4D; line-height:20px; text-decoration:underline; padding:0 0 0 16px;}
 #bodyrightPan ul li a:hover{background:url(images/bullet-hover.gif) 0 6px no-repeat #fff; color:#111; text-decoration:underline;}
-
