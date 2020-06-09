@@ -53,18 +53,8 @@ ul{list-style-type:none;}
 #bodyleftPan p.more{font-weight:bold; font-size:11px; margin:12px 0 0;}
 #bodyleftPan p.more a{width:40px; height:13px; display:block; background:#BE8A0A; color:#fff; text-decoration:none; text-align:center; line-height:12px; margin:0 0 0 393px;}
 #bodyleftPan p.more a:hover{background:#7F035F; color:#fff; text-decoration:none;}
+#bodyleftPan li span{color:blue;font-weight:bold}
 
-/*----------------/Seminner Panel--------------*/
-#bodyleftPan h3{ height:28px; display:block; color:darkblue; font:24px/28px Georgia, "Times New Roman", Times, serif; font-weight:bold; clear:both;}
-
-#bodyleftPan p.one{background:url(images/1.gif) 0 5px no-repeat; padding:5px 34px 0 34px;}
-#bodyleftPan p.one span{font-weight:bold;}
-
-#bodyleftPan p.two{background:url(images/2.gif) 0 5px no-repeat; padding:5px 34px 0 34px;}
-#bodyleftPan p.two span{font-weight:bold;}
-
-#bodyleftPan p.three{background:url(images/3.gif) 0 5px no-repeat; padding:5px 34px 0 34px;}
-#bodyleftPan p.three span{font-weight:bold;}
 /*--------/Body Left Panel----------*/
 /*--------Body Right Panel----------*/
 #bodyrightPan{width:264px; float:left;}
