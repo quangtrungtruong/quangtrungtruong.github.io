@@ -18,7 +18,7 @@ ul{list-style-type:none;}
 
 /*----Top Body Panel----*/
 /*----Top Body Left----*/
-#topbodyleftPan{width:139px; float:left; padding:14px 64px 0 0;}
+#topbodyleftPan{width:139px; float:left; padding:14px 20px 0 0;}
 #topbodyleftPan ul{width:115px; height:125px; background:#fff; color:#7C5904; border:1px solid #F2EAD5; padding:17px 0 0 22px;}
 #topbodyleftPan ul li{width:94px; height:18px; border-bottom:1px dashed #DCD0B3;}
 #topbodyleftPan ul li a{width:100px; height:18px; display:block; background:#fff; color:#7C5904; font:10px/18px "Trebuchet MS", Arial, Helvetica, sans-serif; text-decoration:none; text-transform:uppercase; padding:0 0 0 7px;}
@@ -31,11 +31,11 @@ ul{list-style-type:none;}
 
 /*----Top Body Left----*/
 /*----Top Body Right----*/
-#topbodyrightPan{width:266px; height:221px; float:left; background:url(images/photo.jpg) 328px 21px no-repeat #FFFAEE; color:#8D6C1B; padding:18px 280px 0 0;}
+#topbodyrightPan{width:310px; float:left; background:url(images/photo.jpg) 370px 21px no-repeat #FFFAEE; color:#8D6C1B; padding:18px 280px 0 0;}
 
-#topbodyrightPan h2{ display:block; 111px 21px no-repeat #FFFAEE; color:darkblue; font:34px/29px Georgia, "Times New Roman", Times, serif; font-weight:bold; }
+#topbodyrightPan h2{ display:block; 400px 21px no-repeat #FFFAEE; color:darkblue; font:28px/29px Georgia, "Times New Roman", Times, serif; font-weight:bold; }
 
-#topbodyrightPan p{padding:3px 0;}
+#topbodyrightPan p{padding:10px 15px;}
 #topbodyrightPan p span{font-weight:bold;}
 #topbodyrightPan p.more{width:40px; height:13px; margin:0 0 0 222px;}
 #topbodyrightPan p.more a{width:40px; height:13px; display:block; background:#AC0481; color:#fff; font-size:11px; font-weight:bold; text-align:center; line-height:12px; text-decoration:none;}
