@@ -31,7 +31,7 @@ ul{list-style-type:none;}
 
 /*----Top Body Left----*/
 /*----Top Body Right----*/
-#topbodyrightPan{width:310px; float:left; background:url(images/photo.jpg) 370px 21px no-repeat #FFFAEE; color:#8D6C1B; padding:18px 280px 0 0;}
+#topbodyrightPan{width:310px; float:left; background:url(images/photo.jpg) 370px 21px no-repeat #FFFAEE; color:#8D6C1B; padding:18px 280px 0 0;text-align: justify;}
 
 #topbodyrightPan h2{ display:block; 400px 21px no-repeat #FFFAEE; color:darkblue; font:28px/29px Georgia, "Times New Roman", Times, serif; font-weight:bold; }
 
@@ -44,7 +44,7 @@ ul{list-style-type:none;}
 /*----Top Header Panel----*/
 /*----/TOP PANEL----*/
 /*----BODY PANEL----*/
-#bodyMainPan{background:#fff; color:black; position:relative; margin:0 auto; clear:both; padding:25px 0 0;}
+#bodyMainPan{background:#fff; color:black; position:relative; margin:0 auto; clear:both; padding:25px 0 0; text-align: justify;}
 /*----Body Panel----*/
 #bodyPan{width:749px; position:relative; margin:0 auto;}
 /*--------Body Left Panel----------*/
