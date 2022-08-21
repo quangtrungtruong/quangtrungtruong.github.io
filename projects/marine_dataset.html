@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
     <!-- Basic Page Needs
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -16,7 +17,7 @@
     <!-- FONT
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link href="MarineData_files/css.css" rel="stylesheet" type="text/css">
-    
+
 
     <!-- CSS
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -32,98 +33,158 @@
     <link rel="stylesheet" href="MarineData_files/icon.css">
 
     <!-- Analytics -->
-    <script async="" src="MarineData_files/analytics.js"></script><script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-86869673-1', 'auto');
-      ga('send', 'pageview');
+    <script async="" src="MarineData_files/analytics.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-86869673-1', 'auto');
+        ga('send', 'pageview');
     </script>
 
     <!-- Hover effect: https://codepen.io/nxworld/pen/ZYNOBZ -->
     <style>
-      img {
-          display: block;
-      }
+        img {
+            display: block;
+        }
 
-      .column-50 {
-          float: left;
-          width: 50%;
-      }
-      .row-50:after {
-          content: "";
-          display: table;
-          clear: both;
-      }
+        .column-50 {
+            float: left;
+            width: 50%;
+        }
 
-      .floating-teaser {
-          float: left;
-          width: 30%;
-          text-align: center;
-          padding: 15px;
-      }
-      .venue strong {
-          color: #99324b;
-      }
+        .row-50:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
 
-      .benchmark {
-          width: 100%;
-          max-width: 960px;
-          overflow: scroll;
-          overflow-y: hidden;
-      }
+        .floating-teaser {
+            float: left;
+            width: 30%;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .venue strong {
+            color: #99324b;
+        }
+
+        .benchmark {
+            width: 100%;
+            max-width: 960px;
+            overflow: scroll;
+            overflow-y: hidden;
+        }
 
     </style>
-  </head>
-  <body>
+</head>
+<body>
 
-    <!-- Primary Page Layout
-         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- Primary Page Layout
+     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+    <h4 style="text-align:center">Marine Video Kit: A New Marine Video Dataset for Content-based Retrieval
+        Challenge </h4>
+
+    <br>
+    <p>This webpage is updated on <strong>August 21th 2022</strong>.</p>
+    <h5>Selected Videos</h5>
+    <p>
+        Some marine videos are selected from the dataset in Oahu.<br>
+        Click on images below to play videos.
+    </p>
+
     <div class="container">
-      <h4 style="text-align:center">Marine Video Kit: A New Marine Video Dataset for Content-based Retrieval Challenge </h4>
+        <script>
+            function updateVid(i) {
+                document.getElementById('vid' + i).innerHTML = "<video width='70%' controls autoplay=true loop><source src='MarineData_files/videos/cut_" + i + ".webm' type='video/webm'><source src='MarineData_files/videos/cut_" + i + ".mp4' type='video/mp4'></video>";
+            }
+        </script>
 
-      <br>
+        <style>
+            .imagemouseover {
+                -webkit-filter: brightness(100%);
+                -moz-filter: brightness(100%);
+                -o-filter: brightness(100%);
+                -ms-filter: brightness(100%);
+                filter: brightness(100%);
+            }
 
-      <div id="teaser" class="container" style="width:100%; margin:0; padding:0">
-        <p>This webpage is updated on <strong>August 20th 2022</strong>.</p>
+            .imagemouseover:hover {
+                -webkit-filter: brightness(70%);
+                -moz-filter: brightness(70%);
+                -o-filter: brightness(70%);
+                -ms-filter: brightness(70%);
+                filter: brightness(70%);
+            }
+        </style>
+        <div class="row justify-content-center">
+            <div class="col" id="vid0" onclick="updateVid(0)" align="center"><img
+                    src="MarineData_files/videos/cut_0.jpg" class="imagemouseover" width="70%"></div>
+            <div class="col" id="vid1" onclick="updateVid(1)" align="center"><img
+                    src="MarineData_files/videos/cut_1.jpg" class="imagemouseover" width="70%"></div>
+        </div>
+        <div class="row">
+            <div class="col"><br></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col" id="vid2" onclick="updateVid(2)" align="center"><img
+                    src="MarineData_files/videos/cut_2.jpg" class="imagemouseover" width="70%"></div>
+            <div class="col" id="vid3" onclick="updateVid(3)" align="center"><img
+                    src="MarineData_files/videos/cut_3.jpg" class="imagemouseover" width="70%"></div>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="teaser" class="container" style="width:100%; margin:0; padding:0">
         <h5>Dataset overview</h5>
         <p align="justify">
             Total length: 11.46 hours
             <br>
             Number of videos: 1353
-          <br>
+            <br>
         </p>
-      </div>
-
-      <!-- -->
-      <div class="section">
-        <h5>Information</h5>
-          <div id="CSVTable"></div>
-
-      </div>
-      <br>
     </div>
 
+    <!-- -->
+    <div class="section">
+        <h5>Folders</h5>
+        <div id="CSVTable"></div>
 
-    <script type="text/javascript" src="MarineData_files/jquery.min.js"></script>
-    <script type="text/javascript" src="MarineData_files/footable.min.js"></script>
-    <script type="text/javascript" src="MarineData_files/jquery.csvToTable.js"></script>
+    </div>
+    <br>
+</div>
 
-    <script>
-            $(function() {
-              $('#CSVTable').CSVToTable('MarineData_files/information.csv');
-            });
-            </script>
 
-    <script type="text/javascript">
-      jQuery(function($){
-          $('.table').footable();
-      });
-    </script>
+<script type="text/javascript" src="MarineData_files/jquery.min.js"></script>
+<script type="text/javascript" src="MarineData_files/footable.min.js"></script>
+<script type="text/javascript" src="MarineData_files/jquery.csvToTable.js"></script>
 
-    <!-- End Document
-         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  
+<script>
+    $(function () {
+        $('#CSVTable').CSVToTable('MarineData_files/information.csv');
+    });
+</script>
 
-</body></html>
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('.table').footable();
+    });
+</script>
+
+<!-- End Document
+     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+</body>
+</html>
