@@ -53,6 +53,14 @@
         ga('send', 'pageview');
     </script>
 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js" integrity="sha512-WXoSHqw/t26DszhdMhOXOkI7qCiv5QWXhH9R7CgvgZMHz1ImlkVQ3uNsiQKu5wwbbxtPzFXd1hK4tzno2VqhpA==" crossorigin=""></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MarineData_files/screen.css" />
+
+    <link rel="stylesheet" href="MarineData_files/leaflet.markercluster/MarkerCluster.css" />
+    <link rel="stylesheet" href="MarineData_files/leaflet.markercluster/MarkerCluster.Default.css" />
+
     <!-- Hover effect: https://codepen.io/nxworld/pen/ZYNOBZ -->
     <style>
         img {
@@ -152,6 +160,15 @@
 
     <br>
 
+    <h5>Locations</h5>
+
+    <div class="container" style="width:100%; margin:0; padding:0">
+
+    <div id="map" ></div>
+
+    </div>
+
+    <br>
     <div id="teaser" class="container" style="width:100%; margin:0; padding:0">
         <h5>Dataset overview</h5>
         <p align="justify">
@@ -175,6 +192,9 @@
 <script type="text/javascript" src="MarineData_files/jquery.min.js"></script>
 <script type="text/javascript" src="MarineData_files/footable.min.js"></script>
 <script type="text/javascript" src="MarineData_files/jquery.csvToTable.js"></script>
+<script src="MarineData_files/leaflet.markercluster/leaflet.markercluster-src.js"></script>
+<script src="MarineData_files/locationData.js"></script>
+<script src="MarineData_files/mapApp-min.js"></script>
 
 <script>
     $(function () {
