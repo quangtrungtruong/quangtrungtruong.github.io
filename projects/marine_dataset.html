@@ -103,18 +103,17 @@
 <!-- Primary Page Layout
      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container">
-    <h4 style="text-align:center">Marine Video Kit: A New Marine Video Dataset for Content-based Retrieval
-        Challenge </h4>
+    <h4 style="text-align:center">Marine Video Kit: A New Marine Video Dataset for Content-based Analysis and Retrieval </h4>
 
     <br>
-    <p>This webpage is updated on <strong>August 27th 2022</strong>.</p>
+    <p>This webpage is updated on <strong>September 22nd 2022</strong>.</p>
     <h5>Selected Videos</h5>
     <p>
         Some marine videos are selected from the dataset.<br>
         Click on images below to play videos.
     </p>
 
-    <div class="container">
+    <div class="container" style="width:100%; margin:0; padding:0">
         <script>
             function updateVid(i) {
                 document.getElementById('vid' + i).innerHTML = "<video width='100%' controls autoplay=true loop><source src='MarineData_files/videos/cut_" + i + ".webm' type='video/webm'><source src='MarineData_files/videos/cut_" + i + ".mp4' type='video/mp4'></video>";
@@ -139,18 +138,18 @@
             }
         </style>
         <div class="row justify-content-center">
-            <div class="col" id="vid0" onclick="updateVid(0)" align="center"><img
+            <div class="col-6" id="vid0" onclick="updateVid(0)" align="center"><img
                     src="MarineData_files/videos/cut_0.jpg" class="imagemouseover" width="100%"></div>
-            <div class="col" id="vid1" onclick="updateVid(1)" align="center"><img
+            <div class="col-6" id="vid1" onclick="updateVid(1)" align="center"><img
                     src="MarineData_files/videos/cut_1.jpg" class="imagemouseover" width="100%"></div>
         </div>
         <div class="row">
             <div class="col"><p>Ajay folder</p></div>
         </div>
         <div class="row justify-content-center">
-            <div class="col" id="vid2" onclick="updateVid(2)" align="center"><img
+            <div class="col-6" id="vid2" onclick="updateVid(2)" align="center"><img
                     src="MarineData_files/videos/cut_2.jpg" class="imagemouseover" width="100%"></div>
-            <div class="col" id="vid3" onclick="updateVid(3)" align="center"><img
+            <div class="col-6" id="vid3" onclick="updateVid(3)" align="center"><img
                     src="MarineData_files/videos/cut_3.jpg" class="imagemouseover" width="100%"></div>
         </div>
         <div class="row">
