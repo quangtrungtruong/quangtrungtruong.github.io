@@ -26,7 +26,7 @@
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="MarineData_files/normalize.css">
     <link rel="stylesheet" href="MarineData_files/skeleton.css">
-    <link rel="stylesheet" href="MarineData_files/footable.standalone.min.css">
+    <!-- <link rel="stylesheet" href="MarineData_files/footable.standalone.min.css"> -->
 
     <!-- Favicon
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -238,14 +238,41 @@
 		
     </div>
 
+    <div class="section">
+        <h5>Discussion</h5>
+        Please email us at vgd.hkust [at] gmail.com for any inquiries. You can also post to the discussion board below.
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://marine-video-kit-dataset.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
 </div>
 
 <script type="text/javascript" src="MarineData_files/jquery.min.js"></script>
-<script type="text/javascript" src="MarineData_files/footable.min.js"></script>
-<script type="text/javascript" src="MarineData_files/jquery.csvToTable.js"></script>
+<!-- <script type="text/javascript" src="MarineData_files/footable.min.js"></script> -->
+<!-- <script type="text/javascript" src="MarineData_files/jquery.csvToTable.js"></script> -->
 <script src="MarineData_files/leaflet.markercluster/leaflet.markercluster-src.js"></script>
+<script id="dsq-count-scr" src="https://marine-video-kit-dataset.disqus.com/count.js" async></script>
+
 <script src="MarineData_files/locationData.js"></script>
 <script src="MarineData_files/mapApp-min.js"></script>
+
 <script>
       $('.video-mouseover').hover(function() {
             if (this.hasAttribute("controls")) {
@@ -260,7 +287,6 @@
 
 <!-- End Document
      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
 
 </body>
 </html>
