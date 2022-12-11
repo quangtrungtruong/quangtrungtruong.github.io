@@ -1,5 +1,6 @@
 /* CSS Document */
-body{padding:0px; margin:0px; font:16px/24px Arial, Helvetica, sans-serif;}
+body{padding:0px; margin:0px; font:16px/24px font-variant: super;
+font-family: Merriweather;}
 div, p, ul, h2, h3, form, label, select, img{padding:0px; margin:0px;}
 ul{list-style-type:none;}
 
@@ -32,9 +33,6 @@ ul{list-style-type:none;}
 /*----Top Body Left----*/
 /*----Top Body Right----*/
 #topbodyrightPan{width:310px; float:left; background:url(images/photo.jpg) 370px 21px no-repeat #FFFAEE; color:#8D6C1B; padding:18px 280px 0 0;text-align: justify;}
-
-#topbodyrightPan h2{ display:block; 400px 21px no-repeat #FFFAEE; color:darkblue; font:28px/29px Georgia, "Times New Roman", Times, serif; font-weight:bold; }
-
 #topbodyrightPan p{padding:10px 15px;}
 #topbodyrightPan p span{font-weight:bold;}
 #topbodyrightPan p.more{width:40px; height:13px; margin:0 0 0 222px;}
@@ -68,10 +66,11 @@ form label{width:82px; height:21px; display:block; float:left; background:#FFFAE
 form select{width:133px; height:18px; display:block; float:left; line-height:21px; font-size:12px;}
 form input{width:55px; height:15px; background:#8D6C1B; color:#fff; font-weight:bold; border:none; font-size:11px; margin:10px 0 0 185px; padding:0px;}
 
-#bodyrightPan h3{background:#fff; color:#BE8A0A; font:27px Georgia, "Times New Roman", Times, serif; font-weight:bold; text-transform:uppercase; margin:15px 0;}
-
 #bodyrightPan ul{width:240px;}
 #bodyrightPan ul li{width:240px; height:20px;}
 #bodyrightPan ul li a{width:224px; height:20px; background:url(images/bullet-normal.gif) 0 6px no-repeat #fff; color:#4D4D4D; line-height:20px; text-decoration:underline; padding:0 0 0 16px;}
 #bodyrightPan ul li a:hover{background:url(images/bullet-hover.gif) 0 6px no-repeat #fff; color:#111; text-decoration:underline;}
 
+/*--------Publication----------*/
+#publication{float:left; padding:23px 4px 20px 3px;}
+#publication li span{color:purple;font-family: 'DM Sans', sans-serif}
