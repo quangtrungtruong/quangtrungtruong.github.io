@@ -9,3 +9,10 @@ font-family: Raleway;
 }
 
 #intro{text-align: center}
+
+figure {
+  margin: 2rem 0;
+  position: relative;
+  display: inline-block;
+}
+figure img {width: 120px}
