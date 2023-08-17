@@ -1,14 +1,33 @@
 /* CSS Document */
-body{padding:0px; margin:0px;
-font-family: serif;}
-
-#root {
-text-align: -webkit-left;
-margin-inline: 7em;
-font-family: Raleway;
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: serif;
 }
 
-#intro{text-align: Left; font-family:Optima}
+#root {
+    text-align: -webkit-left;
+    margin-inline: 7em;
+    font-family: Raleway;
+}
 
-#photo {width: 100px}
-figure img {width: 120px}
+#intro {
+    text-align: Left;
+    font-family: Optima
+}
+
+#photo {
+    width: 100px
+}
+
+#pub {
+
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+figure img {
+    width: 200px;
+
+}
