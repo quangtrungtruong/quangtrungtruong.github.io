@@ -21,13 +21,14 @@ body {
 }
 
 #pub {
-
     margin-left: 0;
     margin-right: 0;
+}
 
+#exp {
+    width: 100px;
 }
 
 figure img {
     width: 200px;
-
 }
